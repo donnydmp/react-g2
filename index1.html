@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ 
+    <title>Latihan Aja</title>
+    <script src="./latihan.js" defer></script>
+    
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8"><h1>Latihan 1 Input </h1>
+          <form name="biodata">
+      <div class="form-group">
+
+        <div class="form-group">
+        <label>Username :</label>
+        <input class= "form-control" type="text" name="username" id="username" placeholder="isi username">
+      </div>
+
+      <div class="form-group">
+        <label>Nama :</label>
+        <input class= "form-control" type="text" name="nama" id="nama" placeholder="isi nama...">
+      </div>
+
+      <div class="form-group">
+        <label>Alamat :</label>
+        <textarea class="form-control mb-3" name="alamat" id="alamat" rows="2"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Pekerjaan :</label>
+        <input class= "form-control" type="text" name="pekerjaan" id="pekerjaan">
+      </div>
+
+          
+      
+      <div class="form-group">
+        <button type="button" onClick='inputData()' class="btn btn-success">Simpan</button>
+        <button type="reset" class="btn btn-warning">Batal</button>
+      </div>
+
+      <div class="row">
+        <table class="table" id="databel">
+          <thead>
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">UserName</th>
+              <th scope="col">Nama</th>
+              <th scope="col">Alamat</th>
+              <th scope="col">Pekerjaan</th>
+              
+            </tr>
+          </thead>
+        </table>  
+      </div>
+    </form>
+        </div>          
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+    
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+ 
+   </body>
+</html>
